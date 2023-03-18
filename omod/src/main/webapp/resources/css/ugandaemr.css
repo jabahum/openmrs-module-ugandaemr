@@ -745,6 +745,3 @@ form .lablex4 span {
     max-width: 40%;
 }
 
-.html-form-entry-disabled-field select[disabled] {
-	color:black !important;
-}
