@@ -783,6 +783,8 @@
     <role_privilege role="Triage" privilege="View Triage Metrics"/>
     <role_privilege role="Triage" privilege="View Triage Queuelist"/>
     <role_privilege role="Triage" privilege="View Triage Menu"/>
+    <role_privilege role="Triage"  privilege="Move Patient To Next Service Point Button" />
+
 
     <!--* CLINICIAN ROLE *-->
     <!--role-role-->
