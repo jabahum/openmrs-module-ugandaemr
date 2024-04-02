@@ -1,6 +1,6 @@
 {
   "encounterType": "08478ad9-ccc1-4cbe-9e55-473447984158",
-  "name": "HMIS TB 004: REQUEST FORM FOR TB SPECIMEN EXAMINATION",
+  "name": "HMIS TB 002: REQUEST FORM FOR TB SPECIMEN EXAMINATION",
   "processor": "EncounterFormProcessor",
   "referencedForms": [],
   "uuid": "38452e3c-87fb-4d1c-a8d8-9528f331f44a",
