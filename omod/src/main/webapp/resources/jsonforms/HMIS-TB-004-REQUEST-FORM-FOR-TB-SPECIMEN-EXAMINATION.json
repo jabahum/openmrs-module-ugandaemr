@@ -5,6 +5,9 @@
   "referencedForms": [],
   "uuid": "38452e3c-87fb-4d1c-a8d8-9528f331f44a",
   "version": "4.0.0",
+  "encounter": "TB Screening",
+  "published": true,
+  "retired": false,
   "pages": [
     {
       "label": "REQUEST FORM FOR TB SPECIMEN EXAMINATION",
