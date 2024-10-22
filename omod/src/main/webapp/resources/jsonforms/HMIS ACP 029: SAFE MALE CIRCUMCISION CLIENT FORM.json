@@ -1,0 +1,330 @@
+{
+  "encounterType": "244da86d-f80e-48fe-aba9-067f241905ee",
+  "name": "HMIS ACP 029: SAFE MALE CIRCUMCISION CLIENT FORM",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
+  "uuid": "e0208f1d-43ab-4e01-b759-0ea5057c8955",
+  "version": "4.0.0",
+  "pages": [
+    {
+      "label": "HMIS ACP 029: SAFE MALE CIRCUMCISION CLIENT FORM",
+      "sections": [
+        {
+          "label": "CLIENT INFORMATION",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "How did you know about SMC?",
+              "type": "obs",
+              "required": false,
+              "id": "knowSMC",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a-system-defined-concept-uuid"
+              }
+            },
+            {
+              "label": "Care Entry Point SMC ",
+              "type": "obs",
+              "required": false,
+              "id": "careEntryPointSmc",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "CLIENT MEDICAL HISTORY",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Knowledge of HIV Status",
+              "type": "obs",
+              "required": false,
+              "id": "knowledgeOfHivStatus",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "system-defined-concept-uuid",
+                "answers": [
+                  {
+                    "concept": "another-system-defined-concept-uuid",
+                    "label": "Choice 1",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-another-system-defined-concept-uuid",
+                    "label": "Choice 2",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-one-more-system-defined-concept-uuid",
+                    "label": "Choice 3",
+                    "conceptMappings": []
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Medical History",
+              "type": "obs",
+              "required": false,
+              "id": "medicalHistory",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "system-defined-concept-uuid",
+                "answers": [
+                  {
+                    "concept": "another-system-defined-concept-uuid",
+                    "label": "Choice 1",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-another-system-defined-concept-uuid",
+                    "label": "Choice 2",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-one-more-system-defined-concept-uuid",
+                    "label": "Choice 3",
+                    "conceptMappings": []
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Client Undergoing Treatment",
+              "type": "obs",
+              "required": false,
+              "id": "clientUndergoingTreatment",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Allergies",
+              "type": "obs",
+              "required": false,
+              "id": "allergies",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Physical Exam",
+              "type": "obs",
+              "required": false,
+              "id": "physicalExam",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "ELIGIBILITY FOR CIRCUMCISION",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Client Counseled about SMC? ",
+              "type": "obs",
+              "required": false,
+              "id": "clientCouncelledAboutSMC",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "system-defined-concept-uuid",
+                "answers": [
+                  {
+                    "concept": "another-system-defined-concept-uuid",
+                    "label": "Choice 1",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-another-system-defined-concept-uuid",
+                    "label": "Choice 2",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-one-more-system-defined-concept-uuid",
+                    "label": "Choice 3",
+                    "conceptMappings": []
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Informed consent/ assent for SMC given? ",
+              "type": "obs",
+              "required": false,
+              "id": "informedConsent/AssentForSmcGiven?",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Client Eligible for circumcission after history/physical exam",
+              "type": "obs",
+              "required": false,
+              "id": "clientEligibleForCircumcissionAfterHistory/PhysicalExam",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "CIRCUMCISION PROCEDURE",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Date of circumcision",
+              "type": "obs",
+              "required": false,
+              "id": "dateOfCircumcission",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "system-defined-concept-uuid",
+                "answers": [
+                  {
+                    "concept": "another-system-defined-concept-uuid",
+                    "label": "Choice 1",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-another-system-defined-concept-uuid",
+                    "label": "Choice 2",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-one-more-system-defined-concept-uuid",
+                    "label": "Choice 3",
+                    "conceptMappings": []
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Type of Anesthesia",
+              "type": "obs",
+              "required": false,
+              "id": "typeOfAnesthesia",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Type of circumcision ",
+              "type": "obs",
+              "required": false,
+              "id": "typeOfCircumcision",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Instruments used: Procedure",
+              "type": "obs",
+              "required": false,
+              "id": "instrumentsUsed:Procedure",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Name of Circumciser: ",
+              "type": "obs",
+              "required": false,
+              "id": "nameOfCircumciser:",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Adverse events during procedure?",
+              "type": "obs",
+              "required": false,
+              "id": "adverseEventsDuringProcedure?",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "If yes, refer to the SMC Adverse Event form",
+              "type": "obs",
+              "required": false,
+              "id": "ifYes,ReferToTheSmcAdverseEventForm",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Type of AE",
+              "type": "obs",
+              "required": false,
+              "id": "typeOfAe",
+              "questionOptions": {
+                "rendering": "select"
+              },
+              "validators": []
+            },
+            {
+              "label": "Severity",
+              "type": "obs",
+              "required": false,
+              "id": "severity",
+              "questionOptions": {
+                "rendering": "checkbox"
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": " CIRCUMCISION FOLLOW UP VISITS",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "anotherSampleQuestion",
+              "label": "Another Question of type obs whose answers get rendered as radio inputs",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "system-defined-concept-uuid",
+                "answers": [
+                  {
+                    "concept": "another-system-defined-concept-uuid",
+                    "label": "Choice 1",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-another-system-defined-concept-uuid",
+                    "label": "Choice 2",
+                    "conceptMappings": []
+                  },
+                  {
+                    "concept": "yet-one-more-system-defined-concept-uuid",
+                    "label": "Choice 3",
+                    "conceptMappings": []
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "A form to collect smc information"
+}
