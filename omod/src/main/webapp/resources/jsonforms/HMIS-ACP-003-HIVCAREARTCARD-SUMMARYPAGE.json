@@ -207,6 +207,19 @@
               "validators": []
             },
             {
+              "label": "Other Entry Point",
+              "type": "obs",
+              "required": false,
+              "id": "otherEntry",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "adf31c43-c9a0-4ab8-b53a-42097eb3d2b6"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(careEntryPoint) || careEntryPoint != 'dcd68a88-30ab-102d-86b0-7a5022ba4115'"
+              }
+            },
+            {
               "label": "Treatment supporter Name/Medicine pick-up if ill:",
               "type": "obs",
               "id": "treatment supporter",
@@ -256,6 +269,17 @@
                     "label": "Other"
                   }
                 ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Telephone (whose)",
+              "type": "obs",
+              "required": false,
+              "id": "telephone",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "dce17480-30ab-102d-86b0-7a5022ba4115"
               },
               "validators": []
             },
@@ -356,6 +380,20 @@
                 ]
               },
               "validators": []
+            },
+            {
+              "label": "Other Special Category",
+              "type": "obs",
+              "required": false,
+              "id": "otherSpeCat",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "eac4e9c2-a086-43fc-8d43-b5a4e02febb4"
+              },
+              "validators": [],
+              "hide": {
+                "hideWhenExpression": "isEmpty(specialCategories) || specialCategories != 'dcd68a88-30ab-102d-86b0-7a5022ba4115'"
+              }
             }
           ]
         },
