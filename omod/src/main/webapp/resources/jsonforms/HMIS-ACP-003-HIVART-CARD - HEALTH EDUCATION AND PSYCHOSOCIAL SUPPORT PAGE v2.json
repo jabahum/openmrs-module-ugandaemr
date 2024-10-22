@@ -1,10 +1,10 @@
 {
-  "name": "HMIS ACP 003 : HIV CARE/ART CARD - HEALTH EDUCATION AND PSYCHOSOCIAL SUPPORT PAGE v2",
+  "name": "HMIS ACP 003 : HIV CARE/ART CARD - HEALTH EDUCATION AND PSYCHOSOCIAL SUPPORT PAGE",
   "version": "4.0.1",
   "description": "Captures health eduction and counseling encounters",
   "encounter": "ART Card - Health Education Encounter",
-  "encounterType": "e22e39fd-7db2-45e7-80f1-60fa0d5a4378",
-  "uuid": "26687e48-c7ea-4ca7-b878-e90b742b01f5",
+  "encounterType": "6d88e370-f2ba-476b-bf1b-d8eaf3b1b67e",
+  "uuid": "b8224534-7df0-4c00-ba8e-6b1f291087eb",
   "processor": "EncounterFormProcessor",
   "published": false,
   "retired": false,
@@ -520,71 +520,6 @@
           ]
         }
       ]
-    },
-    {
-      "label": "Name of Service Provider",
-      "sections": [
-        {
-          "label": "Name of Service Provider",
-          "questions": [
-            {
-              "label": "Name of Service Provider",
-              "type": "obs",
-              "id": "nameOfServiceProvider",
-              "questionOptions": {
-                "rendering": "text"
-              }
-            },
-            {
-              "label": "Cadre",
-              "type": "obs",
-              "id": "cadre",
-              "questionOptions": {
-                "rendering": "select",
-                "concept": "1d5a0641-ef12-4101-be76-533d4ba651df",
-                "answers": [
-                  {
-                    "label": "Medical Officer/Specialist",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d1"
-                  },
-                  {
-                    "label": " Clinical Officer",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d2"
-                  },
-                  {
-                    "label": "Nurse",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d3"
-                  },
-                  {
-                    "label": "Counselor/Social Worker",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d4"
-                  },
-                  {
-                    "label": "Peer/Mentor Mother",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d5"
-                  },
-                  {
-                    "label": "YAPs",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d6"
-                  },
-                  {
-                    "label": " Linkage Facilitator",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d7"
-                  },
-                  {
-                    "label": "Para Social Workers",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d8"
-                  },
-                  {
-                    "label": "Others Specify",
-                    "concept": "1d5a0641-ef12-4101-be76-533d4ba651d9"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
+    }  
   ]
 }
