@@ -191,7 +191,34 @@
               "required": false,
               "id": "ifHiv-,ServicesReferredFor",
               "questionOptions": {
-                "rendering": "radio"
+                "rendering": "select",
+                "concept": "",
+                "answers": [
+                  {
+                    "concept": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "None"
+                  },
+                  {
+                    "concept": "a75ab6b0-dbe7-4037-93aa-f1dfd3976f10",
+                    "label": "Prep"
+                  },
+                  {
+                    "concept": "966db6f2-a9f2-4e47-bba2-051467c77c17",
+                    "label": "Pep"
+                  },
+                  {
+                    "concept": "164813AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Condom"
+                  },
+                  {
+                    "concept": "8f38d77a-6488-49ad-a22e-0f84ab91ed7c",
+                    "label": "Post GBV Care"
+                  },
+                  {
+                    "concept": "cc43847c-ee85-4cf7-8dd1-4a6d70f0fa0f",
+                    "label": "STI Screening & treatment"
+                  }
+                ]
               },
               "validators": []
             },
@@ -229,22 +256,22 @@
               "type": "obs",
               "required": false,
               "id": "dateOfTd1(TetanusVaccination)",
-              "datePickerFormat": "both",
+              "datePickerFormat": "calendar",
               "questionOptions": {
-                "rendering": "date"
-              },
-              "validators": []
+                "rendering": "date",
+                "concept": "ed8eebcb-0d31-4c85-ab37-402ba2b9f78d"
+              }
             },
             {
               "label": "Date of TD2 (Tetanus Vaccination)",
               "type": "obs",
               "required": false,
               "id": "dateOfTd2(TetanusVaccination)",
-              "datePickerFormat": "both",
+              "datePickerFormat": "calendar",
               "questionOptions": {
-                "rendering": "date"
-              },
-              "validators": []
+                "rendering": "date",
+                "concept": "5d50f724-6766-421b-bcb1-1133054b7621"
+              }
             }
           ]
         },
@@ -869,26 +896,11 @@
               "type": "obs",
               "required": false,
               "id": "dateOfCircumcission",
+              "datePickerFormat": "both",
               "questionOptions": {
                 "rendering": "date",
-                "concept": "system-defined-concept-uuid",
-                "answers": [
-                  {
-                    "concept": "another-system-defined-concept-uuid",
-                    "label": "Choice 1",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "yet-another-system-defined-concept-uuid",
-                    "label": "Choice 2",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "yet-one-more-system-defined-concept-uuid",
-                    "label": "Choice 3",
-                    "conceptMappings": []
-                  }
-                ]
+                "concept": "46bfb245-35ac-496d-8977-e01bbd165039",
+                "answers": []
               }
             },
             {
