@@ -619,7 +619,7 @@
       "alt": "UgandaEMR+ logo"
     },
     "loginBanner": {
-      "src": "/openmrs/spa/logo-white.svg",
+      "src": "/openmrs/spa/banner.svg",
       "alt": "UgandaEMR+ logo"
     }
   },
