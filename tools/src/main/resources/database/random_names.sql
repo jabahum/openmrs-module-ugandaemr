@@ -1,6 +1,6 @@
 DROP PROCEDURE IF EXISTS `generateRandomNames`;
 
-DROP FUNCTION IF EXISTS openmrs.randomString;
+DROP FUNCTION IF EXISTS randomString;
 CREATE DEFINER=`root`@`localhost` FUNCTION `randomString`($length int) RETURNS varchar(128) CHARSET utf8
   BEGIN
 
